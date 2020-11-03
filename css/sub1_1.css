@@ -1,0 +1,338 @@
+/* sub1_1. style. css */
+/* 커피명가 소개 */
+
+
+/* title_img */
+#title_img {
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin-bottom: 0px;
+    position: relative;
+  }
+  #title_img h2 {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+  }
+#title_img > img {
+    width: 100%;
+    min-height: 400px;
+}
+
+section > img {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 500px;
+}
+
+/* lnb */
+/* #sub1_1_lnb li {
+    float: left;
+    width: calc(1200px / 6);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #efefef;
+    margin-bottom: 30px;
+}
+#sub1_1_lnb li:last-child {
+    margin-right: 0;
+}
+#sub1_1_lnb li a {
+    font-size: 20px;
+    display: block;
+}
+#sub1_1_lnb li a:hover,
+#sub1_1_lnb .active,
+#sub1_1_lnb .active > a  {
+    color: #fff;
+    background: #9A886B;
+} */
+#sub1_1_lnb {
+    width: 1200px;
+    margin:  0 auto;
+}
+#sub1_1_lnb li {
+    float: left;
+    width: calc(1200px / 6);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #fff;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    color: #9c9288;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+}
+#sub1_1_lnb li a {
+    font-size: 20px;
+    display: block;
+    color: #9c9288;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+}
+/* #sub1_1_lnb li:last-child {
+    margin-right: 0;
+} */
+#sub1_1_lnb li a:hover,
+#sub1_1_lnb .active,
+#sub1_1_lnb .active > a  {
+  color:  #382410;
+}
+#sub1_1_lnb li a:hover,
+#sub1_1_lnb .active > a
+{border-bottom: 4px solid #c3512f;}
+
+#sub1_1_lnb.fixed{
+  position: fixed;
+  /* z-index: 9999; */
+  background: #fff;
+  margin: 0 auto;
+  width: 100%; top: 80px;
+  height: 65px;
+  clear: both;
+  left: 920px;
+  transform: translateX(-50%);
+  min-width: 1200px;
+}
+
+
+/* breadcrumb */
+.location {
+    width: 1200px;
+    margin: 0 auto;
+    color: #787878;
+    text-align: right;
+}
+
+/* 사이드바 */
+section#menu {
+    width: 1200px;
+    /* height: 60px; */
+    margin: 0 auto;
+    z-index: 99999;
+    /* overflow: hidden; */
+  }
+  .menu_nav {
+    /* overflow: hidden; */
+    position: fixed;
+    /* background: #ccc; */
+    display: none;
+    right: 90px;
+    bottom: 200px!important;
+  }
+  /* #menu div {
+    margin-bottom: 150px;
+  } */
+  
+  /* .menu_nav > a {
+    width: 130px;
+    height: 130px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+     right: 50px; 
+     bottom:320px; 
+     padding: 5px; 
+    background: #222328;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 100px;
+    font-style: italic;
+  } */
+  /*.menu_nav > a:nth-child(2) {
+    line-height: 20px;
+    padding-top: 30px;
+    padding: 5px;
+  } */
+  
+  .menu_nav > a:last-child {
+    display: block;
+    width: 55px;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 0px;
+    border: 1px solid #2e2e2e;
+    background: white;
+    color: #2e2e2e;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+#contents div h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    width: 1200px;
+    color: #382410;
+    padding-bottom: 10px;
+    /* border-bottom: 2px solid rgba(46,46,46,0.6); */
+    padding-top: 30px;
+    margin-bottom: 20px;
+    /* border-left-style: 2px solid #C3512F; */
+  }
+  #contents div .dash{
+    width: 0.5px;
+    height: 50px;
+    border-left: 3px solid #C3512F;
+    float: left;
+    margin-top: -19px;
+    margin-right: 22px;
+  }
+  #contents > div > h1 > p > span {
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgba(46,46,46,0.6); 
+  }
+/* contents */
+#contents {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+#contents h2{
+    color: #382410;
+    margin-bottom: -10px;
+}
+#contents p {
+    color: #9c9288;
+    font-weight: bold;
+}
+#contents .pic1 {
+    margin-top: 50px;
+    width: 804px;
+    height: 437.5px;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#contents .pic1 img{
+    width: 804px;
+    height: 437.5px;
+    float: left;
+}
+
+#contents .text1 {
+    width: 389px;
+    height: 447px;
+    float: left;
+    margin: 0 0 0 90px;
+}
+/* h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-size: 34px;
+    margin-bottom: 35px;
+    margin: 35px 0 35px 0;
+} */
+#contents .text1 > hr {
+    width: 115px;
+    /* border: 1px solid #2e2e2e; */
+    background: #2e2e2e;
+    margin-bottom: 90px;
+    text-align: right;
+}
+#contents p {
+    font-size: 18;
+    line-height: 40px;
+}
+
+
+#contents > .pic2 {
+    margin-top: 600px;
+    float: right;
+    width: 600px;
+    height: 420px;
+    /* outline: 1px solid red; */
+    margin-bottom: 140px;
+    overflow: hidden;
+}
+
+#contents > .text2 {
+    /* margin: 180px 90px 0 0; */
+    margin-top: 150px;
+    float: left;
+    width: 350px;
+    height: 407px;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+#contents > .text2 > p {
+    margin-bottom: -5px;
+}
+#contents > .text3 > hr {
+    width: 615px;
+    border: 0.1px solid #9c9288;
+    background: #2e2e2e;
+    /* margin-left: 5px; */
+    margin-bottom: 30px;
+}
+#contents > .pic3 {
+    margin-top: 200px;
+    float: left;
+    width: 600px;
+    height: 420px;
+    /* outline: 1px solid red; */
+    margin-bottom: 140px;
+    overflow: hidden;
+}
+
+#contents > .text3 {
+    /* top: 600px; */
+    margin-top: 32px;
+    float: right;
+    /* clear: both; */
+    width: 450px;
+    height: 407px;
+    text-align: left;
+    margin-bottom: 205px;
+    /* border-top: 1px solid #9c9288; */
+    /* outline: 1px solid blue; */
+}
+
+#contents > .text3 > h3,
+#contents > .text3 > p a {
+    color: #c3512f;
+    /* margin-bottom: 20px; */
+}
+#contents > .text3 > h3{
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+#contents > .text3 > p:last-child{
+    margin-top: -10px;
+}
+#contents > .text1 > h2 {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn{
+    0% {}
+    20% {}
+    80% {}
+    100% {}
+}
