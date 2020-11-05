@@ -94,18 +94,42 @@ section#menu5,
 section#menu6 {
   width: 1200px;
   margin: 0 auto;
+  z-index: 9999;
   /* overflow: hidden; */
 }
 
 .menu_nav {
   /* overflow: hidden; */
+    /* background: #ccc; */
   position: fixed;
-  /* background: #ccc; */
   display: none;
   right: 100px;
   bottom: 200px;
 }
-
+#menu2 > .menu_nav{
+  position: fixed;
+  /* display: none; */
+  right: 100px;
+  bottom: 100px;
+}
+#menu3 > .menu_nav{
+  position: fixed;
+  /* display: none; */
+  right: 100px;
+  bottom: 60px;
+}
+#menu4 > .menu_nav {
+  position: fixed;
+  /* display: none; */
+  right: 100px;
+  bottom: 45px;
+}
+#menu5 > .menu_nav {
+  position: fixed;
+  /* display: none; */
+  right: 100px;
+  bottom: 45px;
+}
 /* .menu_nav > a {
     width: 100px;
     height: 100px;
@@ -363,6 +387,27 @@ section#menu6 ul > li:nth-child(3n){
   /* font-size: 18px; */
   /* color: #382410; */
 }
+#allMenu2 .menu_list {
+  margin-bottom: 200px;
+}
+#allMenu3 .menu_list {
+  margin-bottom: 400px;
+}
+#allMenu4 .menu_list{
+  margin-bottom: 90px;
+}
+#allMenu4 .menu_list ul li {
+  width: 190px;
+}
+#allMenu4 .menu_list ul:first-child {
+  margin-right: 20px;
+}
+#allMenu4 .menu_list ul:nth-child(2) {
+  margin-right: 70px;
+}
+#allMenu5 .menu_list {
+  margin-bottom: 140px;
+}
 .menu_list > ul {
   float: left;
   width: 190px!important;
@@ -413,8 +458,8 @@ section#menu6 ul > li:nth-child(3n){
   color: #382410;
 }
 .menu_list > #add_text2{
-  margin-top: 600px;
-  margin-right: 140px;
+  margin-top: 620px;
+  margin-right: 180px;
   /* outline: 1px solid red; */
   text-align: right;
   /* margin-bottom: -40px; */
@@ -427,7 +472,7 @@ section#menu6 ul > li:nth-child(3n){
 }
 
 .menu_list #add_text3{
-  margin-top: 210px;
+  margin-top: 250px;
   margin-right: 140px;
   /* outline: 1px solid red; */
   text-align: left;
@@ -464,13 +509,18 @@ section#menu6 ul > li:nth-child(3n){
 }
 #tea_menu{
   float: right;
-  width: 550px;
+  width: 450px;
+  margin-right: -30px;
+  color: #382410;
   /* outline: 1px solid red; */
 }
 #tea_menu ul{
   width: 360px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   /* outline: 1px solid blue; */
+}
+#tea_menu p{
+  margin-left: 10px;
 }
 #tea_menu img{margin-bottom: 20px;}
 .show {display: block;}
